@@ -22,11 +22,11 @@ function myFunction(){
 //this and new keywords//
 
    
-  function count_Function{
+  function count_Function (){
     document.getElementById("Counting").innerHTML=Count();
     function Count(){
-        Var Strating_Point=9;
-        function Plus_one{Starting_point +=1;}
+        var Strating_Point=9;
+        function Plus_one (){Starting_point +=1;}
         Plus_one();
         return Starting_Point;
     }
