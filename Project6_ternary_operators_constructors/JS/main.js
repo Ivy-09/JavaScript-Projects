@@ -1,7 +1,7 @@
 function Age_Function() {
     Age=document.getElementById("Age").value;
-    if (Age>=18){
-        Vote="You can vote!";
+    if (Age>= 18) {
+        vote="You can vote!";
     }
     else{
         vote="You can't vote";
