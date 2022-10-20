@@ -42,3 +42,4 @@ function Time_function(){
     document.getElementById("Time_of_day").innerHTML=Reply;
     
 }
+//Time function demo//
