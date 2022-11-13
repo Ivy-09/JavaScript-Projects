@@ -25,3 +25,11 @@ function for_Loop(){
     document.getElementById("List_of_Fruits").innerHTML=Content;
 }
 //for loop function//
+
+function dog_pics(){
+    var dog_pics=[];
+    dog_pics[0]="eating";
+    dog_pics[1]="sleeping";
+    dog_pics[2]="playing"
+    document.getElementById("Dog").innerHTML="The dog is"+dog_pics[2]+".";
+}
