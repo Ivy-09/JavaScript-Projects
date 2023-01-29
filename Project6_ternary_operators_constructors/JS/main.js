@@ -25,8 +25,8 @@ function myFunction(){
  function count_Function (){
     document.getElementById("Counting").innerHTML=Count();
     function Count(){
-        var starting_point=9;
-        function Plus_one (){starting_point +=1;}
+        var starting_Point=9;
+        function Plus_one (){starting_Point +=1;}
         Plus_one();
         return starting_Point;
     }
