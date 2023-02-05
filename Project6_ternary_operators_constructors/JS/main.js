@@ -1,12 +1,8 @@
 function Age_Function() {
-    Age=document.getElementById("Age").value;
-    if (Age>= 18) {
-        vote="You can vote!";
-    }
-    else{
-        vote="You can't vote";
-    }
-    document.getElementById("How_old_are_you?").innerHTML=vote;
+ var Ages, Can_vote;
+Ages=document,getElementById("Ages").value;
+Can_Vote=(Age>18)?"You can vote":"You can't vote";
+document.getElementById("Age").innerHTML=Can_vote+"!";
 }
 //ternary operation//
 
